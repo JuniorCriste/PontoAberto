@@ -1,8 +1,18 @@
 object Brain: TBrain
   Left = 587
-  Height = 240
+  Height = 366
   Top = 224
-  Width = 320
+  Width = 587
   Caption = 'PONTO ABERTO'
+  ClientHeight = 366
+  ClientWidth = 587
   LCLVersion = '2.2.0.4'
+  object Button1: TButton
+    Left = 427
+    Height = 28
+    Top = 325
+    Width = 132
+    Caption = 'Gerar'
+    TabOrder = 0
+  end
 end

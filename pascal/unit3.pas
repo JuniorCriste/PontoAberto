@@ -1,6 +1,6 @@
-unit Unit1;
+unit Unit3;
 
-{$mode objfpc}{$H+}
+{$mode ObjFPC}{$H+}
 
 interface
 
@@ -8,7 +8,7 @@ uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
 
 type
-  TFistScreen = class(TForm)
+  TForm1 = class(TForm)
   private
 
   public
@@ -16,7 +16,7 @@ type
   end;
 
 var
-  FistScreen: TFistScreen;
+  Form1: TForm1;
 
 implementation
 

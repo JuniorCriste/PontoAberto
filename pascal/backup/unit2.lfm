@@ -1,0 +1,8 @@
+object Brain: TBrain
+  Left = 587
+  Height = 240
+  Top = 224
+  Width = 320
+  Caption = 'PONTO ABERTO'
+  LCLVersion = '2.2.0.4'
+end

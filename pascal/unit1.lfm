@@ -4,5 +4,15 @@ object FistScreen: TFistScreen
   Top = 172
   Width = 320
   Caption = 'SELEÇÃO'
+  ClientHeight = 240
+  ClientWidth = 320
   LCLVersion = '2.2.0.4'
+  object Button1: TButton
+    Left = 244
+    Height = 44
+    Top = 168
+    Width = 61
+    Caption = 'GO'
+    TabOrder = 0
+  end
 end
