@@ -1,0 +1,8 @@
+object FistScreen: TFistScreen
+  Left = 322
+  Height = 240
+  Top = 172
+  Width = 320
+  Caption = 'SELEÇÃO'
+  LCLVersion = '2.2.0.4'
+end
