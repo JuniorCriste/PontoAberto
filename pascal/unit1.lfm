@@ -13,6 +13,7 @@ object FistScreen: TFistScreen
     Top = 168
     Width = 61
     Caption = 'GO'
+    OnClick = Button1Click
     TabOrder = 0
   end
 end

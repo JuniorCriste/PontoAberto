@@ -5,10 +5,14 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Buttons;
 
 type
+
+  { TFistScreen }
+
   TFistScreen = class(TForm)
+    procedure Button1Click(Sender: TObject);
   private
 
   public
@@ -21,6 +25,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TFistScreen }
+
+procedure TFistScreen.Button1Click(Sender: TObject);
+begin
+
+end;
 
 end.
 
