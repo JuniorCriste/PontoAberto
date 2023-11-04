@@ -1,22 +1,30 @@
 const root = document.getElementById('root')
 
 const pessoas = [
-  {name: 'Francisco', age: 28},
-  {name: 'Monize', age: 23},
-  {name: 'José', age: 44}
+    {numero: '1', nome: 'Junior Criste', licenca: 'LMS', cargo: 'Agente de Suporte Educacional', assinatura: '', observacao: ''},
+    {numero: '2', nome: 'Osvaldo Pálido', licenca: 'LGE', cargo: 'Cuidador', assinatura: '', observacao: ''}
+
 ]
 
 const tableBody = pessoas.map((pessoa) => {
   return `<tr>
-    <td>${pessoa.name}</td>
-    <td>${pessoa.age}</td>
+    <td>${pessoa.numero}</td>
+    <td>${pessoa.nome}</td>
+    <td>${pessoa.licenca}</td>
+    <td>${pessoa.cargo}</td>
+    <td>${pessoa.assinatura}</td>
+    <td>${pessoa.observacao}</td>
   </tr>`
 }).join('')
 
 const table = `<table>
   <tr>
-    <td>Nome</td>
-    <td>Idade</td>
+  <td>*</td>
+  <td>Nome</td>
+  <td>Licença</td>
+  <td>Cargo</td>
+  <td>Assinatura</td>
+  <td>Observação</td>
   </tr>
   ${tableBody}
 </table>`;
