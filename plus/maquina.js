@@ -1,6 +1,6 @@
 const logo = document.getElementById('logo')
 var URLlogo = "https://www.informaticode.com.br/assets/juniorcriste_informaticodeSquare.png"
-var PAlogo= '<img src="' + {URLlogo} + '" width="50" height="50">';
+var PAlogo= '<img src="' + URLlogo + '" width="50" height="50">';
 const dadoslogo = ` ${PAlogo}`;
 
 tabela.insertAdjacentHTML('beforeend', dadoslogo)
