@@ -1,4 +1,4 @@
-const root = document.getElementById('root')
+const tabela = document.getElementById('tabela')
 
 const pessoas = [
     {numero: '1', nome: 'Junior Criste', licenca: 'LMS', cargo: 'Agente de Suporte Educacional', assinatura: '', observacao: ''},
@@ -29,4 +29,4 @@ const table = `<table>
   ${tableBody}
 </table>`;
 
-root.insertAdjacentHTML('beforeend', table)
+tabela.insertAdjacentHTML('beforeend', table)
