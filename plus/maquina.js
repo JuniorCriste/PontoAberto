@@ -1,9 +1,31 @@
 const logo = document.getElementById('logo')
+var URLlogo = "https://www.informaticode.com.br/assets/juniorcriste_informaticodeSquare.png"
+var PAlogo= '<img src="' + {URLlogo} + '" width="50" height="50">';
+const dadoslogo = ` ${PAlogo}`;
 
-var endlogo= "Seu Logo 777";
-const dados = ` ${endlogo}`;
+tabela.insertAdjacentHTML('beforeend', dadoslogo)
 
-tabela.insertAdjacentHTML('beforeend', dados)
+
+
+
+
+const titulo = document.getElementById('titulo')
+
+var PAtitulo= "Livro de Ponto do Estado <br/>";
+const dadostitulo = ` ${PAtitulo}`;
+
+tabela.insertAdjacentHTML('beforeend', dadostitulo)
+
+
+
+
+
+const descricao = document.getElementById('descricao')
+
+var PAtitulo= "Livro de Ponto da EEEFM Garibaldo Martins Coelho Suzane <br/>";
+const dadosdescricao = ` ${PAtitulo}`;
+
+tabela.insertAdjacentHTML('beforeend', dadosdescricao)
 
 
 
