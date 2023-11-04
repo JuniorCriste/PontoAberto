@@ -1,4 +1,14 @@
-const tabela = document.getElementById('tabela')
+const logo = document.getElementById('logo')
+
+var endlogo= "Seu Logo 777";
+const dados = ` ${endlogo}`;
+
+tabela.insertAdjacentHTML('beforeend', dados)
+
+
+
+
+
 
 const pessoas = [
     {numero: '1', nome: 'Junior Criste', licenca: 'LMS', cargo: 'Agente de Suporte Educacional', assinatura: '', observacao: ''},
@@ -30,3 +40,4 @@ const table = `<table>
 </table>`;
 
 tabela.insertAdjacentHTML('beforeend', table)
+
